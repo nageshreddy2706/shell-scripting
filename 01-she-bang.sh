@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/python
 
 
 # #! is called as She-Bang
