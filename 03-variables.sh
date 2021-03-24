@@ -25,7 +25,7 @@ echo $COURSE_NAME Trainer - Nagesh
 # Unix/Linux  -> VARNAME (All in capital characters_
 # Java - varname (camelcase)
 
-DATE=2021-24-03
+DATE=2021-23-03
 echo "Good Morning,  Today date is $DATE"
 
 # To declare variable content dynamically then we should be using
