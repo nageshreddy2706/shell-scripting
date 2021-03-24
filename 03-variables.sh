@@ -34,3 +34,17 @@ echo "Good Morning,  Today date is $DATE"
 
 DATE=$(date +%F)
 echo "Good Morning, Today date is $DATE"
+
+ADD=$((2+3))
+echo ADD =$ADD
+
+# DATA TYPES
+a=10    #integer
+b=xyz   #string
+c=true  #boolean
+d=9.99  #float
+
+echo a = $a, b = $b, c = $c, d = $d
+
+# In shell by default there are not data types, you should deal with the data of its types
+
