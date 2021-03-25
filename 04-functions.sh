@@ -6,13 +6,13 @@
 # Declare a function
 
 # way 1
-fucntion SAMPLE() {
-  echo Hello from sample function
+ fucntion SAMPLE() {
+  echo Hello from SAMPLE function
 }
 
 # way 2
 SAMPLE1() {
-  echo Hello from sample1 function
+  echo Hello from SAMPLE1 function
   }
 
 #Function name standards are as same as variables in bash shell
