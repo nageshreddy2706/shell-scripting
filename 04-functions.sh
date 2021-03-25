@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Assign a name to data is a variable
-# Assign a name to group of commands is called as fucntion
+# Assign a name to group of commands is called as function
 
 # Declare a function
 
@@ -20,8 +20,19 @@ SAMPLE1() {
 
 #Function name standards are as same as variables in bash shell
 
-# call a function
+# call a function in a main program
 b=20
 SAMPLE
 SAMPLE1
 echo A = $a
+
+# you declare a variable in main program, you can access in function & vice versa
+# you declare a variable in main program, you can overwrite the variable in function & vice versa
+
+# Inputs to the function using special variables
+SAMPLE2() {
+  echo First Argument = $1
+  echo Second Argument = $2
+}
+
+SAMPLE2 10 20
