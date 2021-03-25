@@ -6,7 +6,8 @@
 # Declare a function
 
 # way 1
- fucntion SAMPLE() {
+
+ function SAMPLE() {
   echo Hello from SAMPLE function
 }
 
